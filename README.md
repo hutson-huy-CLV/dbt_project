@@ -1,21 +1,29 @@
-# DBT Template làm bởi Vịt làm Data 🐥
+# Hutson's Data Warehouse Project
 
-![vit lam data](https://user-images.githubusercontent.com/54139415/209691017-85970449-192c-47ad-a131-26e18f457cad.png)
+Hello! I'm Hutson, this project is to show how I build a data warehouse from scrath using dbt.
+ 
+A Big appreciate to Paul and Vit lam data to give me this template and and instructions for this project. This is the [Vit lam data data warehouse course](https://www.udemy.com/course/khoa-hoc-data-warehouse-modeling/?referralCode=6EDD0665F6BB84057889) if you might interest.
 
+## 🎯 Knowledge & techniques that I achieved
 
-Chào bạn, mình là [Vịt làm Data](https://www.youtube.com/@vitlamdata?sub_confirmation=1) 👋👋. 
+- Building an Data Warehouse from scratch
+- Designing data models following [Kimball's Dimensional Modeling techniques](https://www.goodreads.com/en/book/show/748203)
+- Implementing end-to-end data pipeline using [DBT](https://www.getdbt.com/) and SQL
+- Implementing data quality checks using [DBT test](https://docs.getdbt.com/docs/build/tests)
 
-Đây là project mẫu mình làm để bạn có thể dễ dàng cài đặt DBT và trải nghiệm DBT. 
+## 📃 How to check this project
+You can find the diagrams at [`diagrams`](diagrams).
 
-Để biết cách cài đặt DBT, bạn xem chuỗi video trên kênh [Vịt làm Data](https://www.youtube.com/@vitlamdata?sub_confirmation=1) của mình nha 😄
+You can find data models at [`models/analytics`](models/analytics).
 
-- 👉 [Hướng dẫn Cài đặt DBT trên Windows](https://www.youtube.com/playlist?list=PL01fPqVNMdrmbiV5d3SwlA4v88md8HtnN)
+You can find data quality tests at [`testss`](models\analytics\testss).
 
-- 👉 [Hướng dẫn Cài đặt DBT trên MacOS](https://www.youtube.com/playlist?list=PL01fPqVNMdrlEQQfNF4-GOQ5p_1VF4yAu)
+## Modules that I implemented
 
-- 👉 Dùng DBT: đang cập nhật
+- Sales Orders
+- Purchase Orders
 
----
-
-### Nhân tiện, mình có khóa học về [Xử lý dữ liệu cho Data Warehouse](https://www.udemy.com/course/khoa-hoc-data-warehouse-modeling/?referralCode=6EDD0665F6BB84057889). Trong khóa học này, mình sẽ dùng DBT (yay 🤟) để hướng dẫn mọi người cách xử lý dữ liệu trên Data Warehouse bằng SQL+DBT theo chuẩn [Dimensional Modeling](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/) của bác Kimball nha 😄.
-### Nếu bạn quan tâm có thể [tham khảo thêm ở đây](https://www.udemy.com/course/khoa-hoc-data-warehouse-modeling/?referralCode=6EDD0665F6BB84057889) nha 🥰.
+## More info
+- Raw dataset: [Wide World Importers](https://learn.microsoft.com/en-us/sql/samples/wide-world-importers-what-is?view=sql-server-ver16)
+- Database: [BigQuery](https://cloud.google.com/bigquery)
+- Course: [Data Warehouse by Vitlamdata](https://vitlamdata.substack.com/p/khoa-hoc-xu-ly-du-lieu-cho-data-warehouse)
